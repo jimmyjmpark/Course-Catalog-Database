@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.gatech.g73.controller.AdminPageController">
+   <children>
+      <Label id="funcLabel" layoutX="363.0" layoutY="110.0" text="Choose Functionality" textFill="#cd9c15">
+         <font>
+            <Font size="53.0" />
+         </font>
+      </Label>
+      <Hyperlink id="viewAppHyperlink" layoutX="451.0" layoutY="231.0" onAction="#viewApplications" text="View Applications">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink id="viewPopHyperlink" layoutX="354.0" layoutY="296.0" onAction="#viewPopularProject" text="View popular project report">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink id="viewAppRepHyperlink" layoutX="393.0" layoutY="361.0" onAction="#viewAppReport" text="View Application report">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink id="addProjHyperlink" layoutX="496.0" layoutY="493.0" onAction="#addProject" text="Add a Project">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink id="addCourseHyperlink" layoutX="495.0" layoutY="558.0" onAction="#addCourse" text="Add a Course">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>
